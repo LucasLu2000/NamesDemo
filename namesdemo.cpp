@@ -55,7 +55,7 @@ int main() {
 
         if (sel == '1' || sel == '2' || sel == '3') {
 
-            cout << "Ender name to check:";
+            cout << "Enter name to check: ";
             cin >> name;
 
             /* Convert verse to upper case*/
