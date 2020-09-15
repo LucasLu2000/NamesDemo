@@ -48,9 +48,9 @@ int main() {
     /* See what user wants */
     do {
 
-        cout << "Select one: " << endl << "  1. A Last name" << endl
-                << "  2. Female first names" << endl << "  3. Male First Names" << endl
-                << "  0. End Program." << endl << "Select:";
+        cout << "Select one: " << endl << "  1. A Last Name" << endl
+                << "  2. Female First Names" << endl << "  3. Male First Names" << endl
+                << "  0. End Program" << endl << "Select: ";
         cin >> sel;
 
         if (sel == '1' || sel == '2' || sel == '3') {
