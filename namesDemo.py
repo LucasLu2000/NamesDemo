@@ -68,7 +68,7 @@ maleMap=NameMap('dist.male.first')
 lastMap=NameMap('dist.all.last')
 
 type=int(input("1=female,2=male,3=last: "))
-name=input("Name:").upper()
+name=input("Name: ").upper()
 
 if (type==1):
   data=femaleMap.lookup10(name)
